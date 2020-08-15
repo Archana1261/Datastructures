@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main()
+{
+    int a[10] = {10, 6, 8, 15, 20, 3, 14, 99, 66, 30};
+    int i = 0, key;
+    printf("Enter the value of key to be searched:");
+    scanf("%d", &key);
+    for(i = 0; i < 10; i++)
+    {
+        if ( a[i] == key)
+        {
+            printf("search is successful at %d position", i);
+            break;
+        }
+    }
+    if(i == 10)
+    {
+        printf("search is unsuccessful");
+    }
+    return 0;
+}
