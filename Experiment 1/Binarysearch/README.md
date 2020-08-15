@@ -22,15 +22,13 @@ DESCRIPTION:
 
 output 1:
     key element is 6,then mid = (0+9)/2 = 4.5,here key < mid then high = mid - 1 and continues untill the key element matches with mid position,then we will find that search is successful at 1st position in the array.
-    
     ![output 1](binary_search.1.PNG)
+    
     
 output 2:
     key element is 14, then mid = (0+9)/2 = 4.5,here key > mid then low = mid + 1 and continues untill the key element matches with mid position,then we will find that search is successful at 4th position in the array.
-    
     ![output 2](binary_search.2.PNG)
     
 output 3:
     key element is 99, then mid = (0+9)/2 = 4.5,here key > mid then low = mid + 1 and continues untill the key element matches with mid position,then we will find that search is successful at 9th position in the array.
-    
     ![output 3](binary_search.3.PNG)
