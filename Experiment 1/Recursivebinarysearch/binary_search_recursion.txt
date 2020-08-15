@@ -1,0 +1,40 @@
+#include <stdio.h>
+int Recbinarysearch(int a[], int key, int start, int end);
+int main()
+{
+    int pos, key;
+    int a[10] = {3, 6, 8, 10, 14, 15, 20, 30, 66, 99};
+    printf("Enter the value of key to be searched:");
+    scanf("%d", &key);
+    pos = Recbinarysearch(a, 0, 9, key);
+    if(pos != -1)
+    {
+        printf("The element %d is found at %d position", key, pos);
+    }
+    else
+    {
+        printf("The element %d is not found", key);
+    }
+    return 0;
+}
+int Recbinarysearch(int a[], int low, int high, int key)
+{
+    int mid = 0;
+    if (low > high)
+    {
+        return -1;
+    }
+    mid = ( low + high) / 2;
+    if( a[mid] == key)
+    {
+        return mid;
+    }
+    else if( key < a[mid])
+    {
+        Recbinarysearch(a, low, mid-1, key);
+    }
+    else
+    {
+        Recbinarysearch(a, mid+1, high, key);
+    }
+}
