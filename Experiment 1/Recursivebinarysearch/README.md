@@ -21,15 +21,24 @@ STEP BY STEP PROCEDURE:
     case 3: If key < mid then high = mid -1.
 8. We have to continue this process until we find our key element.
 
-output 1:key element is 6,then mid = (0+9)/2=4.5.Here mid <key then high = mid -1 and continues until the key element matches with mid position by declaring a recursive function then we will find the key position at 1 st position of the array.
+output 1:(key element = 6)
+•	STEP 1: first index = 0, last index = 9, mid index = 4 a[4] = 14 and a[4] > 6
+•	STEP 2: first index = 0 , last index = 3 ,mid value = 1 a[1] = 6 and a[1] = 6 . And here the element matches with the key value and it returns the search is successful at position 1
+
 
 ![output 1](binary_search_recursion.1.PNG)
 
-output 2:key element is 14, then mid = (0+9)/2 = 4.5.Here mid > key then low = mid +1 and continues until the key element matches with the position by declaring a recursive function then we wil find key position at  4th position in the array.
+output 2:(key element = 14)
+•	STEP 1: first index = 0, Last index = 9 mid value = 4 a[4] = 14 and a[4] = 14 . And here the element matches with the key value and it returns the search is successful at position 4
 
 ![output 2](binary_search_recursion.2.PNG)
 
-output 3:key element is 99,then mid = (0+9)/2 = 4.5.Here mid < key then high = mid -1 and continues until the key element matches with mid position by declaring a recursive function then we will find the key position at 9th position.
+output 3:(key element = 99)
+•	STEP 1: first index = 0, last index = 9, mid value = 4 a[4] =14 and a[4] < 99. and here the first index = mid + 1
+•	STEP 2: first index = 5 , last index = 9, mid value = 7 a[7] = 30 and a[7] < 99
+•	STEP 3: first index = 8, last index = 9, mid value = 8 a[8] = 66 and a[8] < 99
+•	STEP 4: first index = 9, last index = 9, mid value = 9 a[9] = 99 and a[9] = 99. And here the lement matches with the key element and it returns the search is successful at position 9. 
+
 
 ![output 3](binary_search_recursion.3.PNG)
 
