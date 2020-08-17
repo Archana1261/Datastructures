@@ -20,8 +20,12 @@ DESCRIPTION:
    case 3: if key < mid, then high = mid -1.
 7. We have to continue our process until we find the key element or search space is exhausted
 
-output 1:
-    key element is 6,then mid = (0+9)/2 = 4.5,here key < mid then high = mid - 1 and continues untill the key element matches with mid position,then we will find that search is successful at 1st position in the array.
+output 1:(key element = 6)
+ * STEP 1: first index = 0, last index = 9, mid index = 4
+   a[4] = 20 and a[4] > 6
+ * STEP 2: first index = 0 , last index = 3 ,mid value = 2
+ a[2] = 8 and a[2] > 6
+ * STEP 3: first index = 0, last index = 
     ![output 1](binary_search.1.PNG)
     
     
