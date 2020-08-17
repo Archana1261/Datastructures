@@ -1,22 +1,35 @@
 #include <stdio.h>
+int linear_search(int [], int, int);
 
 int main()
 {
+    int i,position,key;
     int a[10] = {10, 6, 8, 15, 20, 3, 14, 99, 66, 30};
-    int i = 0, key;
-    printf("Enter the value of key to be searched:");
+    printf("Enter the key element to be searched:");
     scanf("%d", &key);
-    for(i = 0; i < 10; i++)
-    {
-        if ( a[i] == key)
-        {
-            printf("search is successful at %d position", i);
-            break;
-        }
-    }
-    if(i == 10)
+    position = linear_search(a, 10, key);
+    if( position == -1)
     {
         printf("search is unsuccessful");
     }
+    else
+    {
+        printf("search is successful at position %d", position);
+    }
     return 0;
 }
+int linear_search(int a[], int n, int key)
+{
+    int i;
+    for(i = 0;i<n;i++)
+    {
+        if( a[i] == key)
+        {
+            return i;
+        }
+    }
+    return -1;
+}
+
+
+
