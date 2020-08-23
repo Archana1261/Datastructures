@@ -9,16 +9,16 @@ DESCRIPTION:
 
 
 STEP BY STEP PROCEDURE:
-    
-    1. Firstly, we have to declare an array with specific number of elements.
+
+1. Firstly, we have to declare an array with specific number of elements.
+
+2. Then we have to compare the adjacent two elements strating from the first position.
 	
-    2. Then we have to compare the adjacent two elements strating from the first position.
+3. If the first element is greater than second element we have to swap them.Otherwise, we have to consider next two adjacent elements for the comparision.
 	
-	3. If the first element is greater than second element we have to swap them.Otherwise, we have to consider next two adjacent elements for the comparision.
+4. This process continues until the whole array gets sortetd.
 	
-	4. This process continues until the whole array gets sortetd.
-	
-	5. If the array gets sorted then we have to print the array.
+5. If the array gets sorted then we have to print the array.
 	
 OUTPUT OBTAINED:
  
@@ -54,7 +54,7 @@ OUTPUT 2:
 	
 5. And the given array got sorted.
 	
-	 ![output 2](Bubble_sort2.1.PNG)
+	 ![output 2](Bubble_sort2.2.PNG)
 	 
 	 
 	 
