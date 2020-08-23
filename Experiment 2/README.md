@@ -54,7 +54,7 @@ OUTPUT OBTAINED:
 	
 	5. And the given array got sorted.
 	
-	 ![0utput 2](Bubble_sort2.1.PNG)
+	 ![output 2](Bubble_sort2.1.PNG)
 	 
 	 ![output 2](Bubble_sort2.2.PNG)
 	 
