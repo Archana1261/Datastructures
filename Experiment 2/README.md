@@ -46,7 +46,7 @@ OUTPUT OBTAINED:
 	
 	1. we are initializing the array with size of 10. And the array is {5,6,7,8,9,2,10,-3,15,25}.
 	
-	2. For firts pass the array becomes {5,6,7,2,8,9,-3,10,15,25}.For the second pass the array becomes {5,6,7,2,8,-3,9,10,15,25}.For 3rd pass array becomes {5,6,7,2,-3,8,9,10,15,25}.
+	2. For firts pass the array becomes {5,6,7,2,8,9,-3,10,15,25}.For the second pass the array becomes {5,6,7,2,8,-3,9,10,15,25}.For 3rd pass array becomes     {5,6,7,2,-3,8,9,10,15,25}.
 	
 	3. For the 4th pass array becomes {5,6,2,-3,7,8,9,10,15,25}.For 5th pass arry becomes {5,2,6,-3,7,8,9,10,15,25}.For 6th pass array becomes {5,2,-3,6,7,8,9,10,15,25}.
 	
