@@ -22,25 +22,25 @@ STEP BY STEP PROCEDURE:
 	
 OUTPUT OBTAINED:
  
-    OUTPUT 1:  
-	 
-	1. We are initializing the array with size of 5.
+ OUTPUT 1:  
+ 
+1. We are initializing the array with size of 5.
+
+2. Let the array be { 5, 4, 3, 2, 1 }.If there are n elements in the array then we require n -1 passes for sorting the array.
 	   
-	2. Let the array be { 5, 4, 3, 2, 1 }.If there are n elements in the array then we require n -1 passes for sorting the array.
+3. For the first pass: Here compare for the first two elements 5 and 4.Hence 5 is > 4,then swap(5, 4) occurs and the array becomes  { 4, 5, 3, 2, 1 }.
 	   
-	3. For the first pass: Here compare for the first two elements 5 and 4.Hence 5 is > 4,then swap(5, 4) occurs and the array becomes  { 4, 5, 3, 2, 1 }.
+4. By comparing the 2nd and 3rd elements 5 and 3. Hencde 5 is greater tha 3, then swap(5, 3) occurs and the array becomes { 4, 3, 5, 2, 1 }.
 	   
-	4. By comparing the 2nd and 3rd elements 5 and 3. Hencde 5 is greater tha 3, then swap(5, 3) occurs and the array becomes { 4, 3, 5, 2, 1 }.
+5. By comparing the 3rd and 4th elements  5 and 2. Hence 5 is greater than 2, then swap(5, 2) occurs and the array becomes {4, 3, 2, 5, 1 }.
 	   
-	5. By comparing the 3rd and 4th elements  5 and 2. Hence 5 is greater than 2, then swap(5, 2) occurs and the array becomes {4, 3, 2, 5, 1 }.
+6. By comparing the 4th and 5th elements 5 and 1. Hence 5 is greater than 1, then swap (5, 1) occurs and the array becomes { 4, 3, 2, 1, 5}.
 	   
-	6. By comparing the 4th and 5th elements 5 and 1. Hence 5 is greater than 1, then swap (5, 1) occurs and the array becomes { 4, 3, 2, 1, 5}.
+7. For second pass the array becomes {3, 2, 1, 4, 5]. For the 3rd pass the array becomes { 2, 1, 3, 4, 5}. For the 4th pass the array becomes {1, 2, 3, 4, 5}.
 	   
-	7. For second pass the array becomes {3, 2, 1, 4, 5]. For the 3rd pass the array becomes { 2, 1, 3, 4, 5}. For the 4th pass the array becomes {1, 2, 3, 4, 5}.
+8. And the given array got sorted by using swapping.
 	   
-	8. And the given array got sorted by using swapping.
-	   
-	   ![output 1](Bubble_sort.1.PNG)
+	 ![output 1](Bubble_sort.1.PNG)
 	   
 	OUTPUT 2:
 	
