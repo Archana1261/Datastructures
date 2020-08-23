@@ -42,26 +42,28 @@ OUTPUT OBTAINED:
 	   
 	 ![output 1](Bubble_sort.1.PNG)
 	   
-	OUTPUT 2:
+OUTPUT 2:
 	
-	1. we are initializing the array with size of 10. And the array is {5,6,7,8,9,2,10,-3,15,25}.
+1. we are initializing the array with size of 10. And the array is {5,6,7,8,9,2,10,-3,15,25}.
 	
-	2. For firts pass the array is {5,6,7,2,8,9,-3,10,15,25}.For the second pass the array is {5,6,7,2,8,-3,9,10,15,25}.For 3rd pass is {5,6,7,2,-3,8,9,10,15,25}.
+2. For firts pass the array is {5,6,7,2,8,9,-3,10,15,25}.For the second pass the array is {5,6,7,2,8,-3,9,10,15,25}.For 3rd pass is {5,6,7,2,-3,8,9,10,15,25}.
 	
-	3. For the 4th pass array becomes {5,6,2,-3,7,8,9,10,15,25}.For 5th pass arry becomes {5,2,6,-3,7,8,9,10,15,25}.For 6th pass array becomes {5,2,-3,6,7,8,9,10,15,25}.
+3. For the 4th pass array becomes {5,6,2,-3,7,8,9,10,15,25}.For 5th pass arry becomes {5,2,6,-3,7,8,9,10,15,25}.For 6th pass array becomes {5,2,-3,6,7,8,9,10,15,25}.
 	
-	4. For the 7th pass array becomes {5,-3,2,6,7,8,9,10,15,25}.For 8th pass array becomes {-3,5,2,6,7,8,9,10,15,25}.For 9th pass array becomes {-3,2,5,6,7,8,9,10,15,25].
+4. For the 7th pass array becomes {5,-3,2,6,7,8,9,10,15,25}.For 8th pass array becomes {-3,5,2,6,7,8,9,10,15,25}.For 9th pass array becomes {-3,2,5,6,7,8,9,10,15,25].
 	
-	5. And the given array got sorted.
+5. And the given array got sorted.
 	
 	 ![output 2](Bubble_sort2.1.PNG)
 	 
 	 
 	 
-	OuTPUT 3:
+	 
+	 
+OuTPUT 3:
 	
-	1. We are initializing the array with size 5 and the array is {1,3, 7, 9, 25}.
+1. We are initializing the array with size 5 and the array is {1,3, 7, 9, 25}.
 	
-	2. the given array is sorted hence no need of swapping.
+2. the given array is sorted hence no need of swapping.
 	
 	![output 3](Bubble_sort.3.PNG)
