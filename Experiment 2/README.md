@@ -56,7 +56,7 @@ OUTPUT OBTAINED:
 	
 	 ![output 2](Bubble_sort2.1.PNG)
 	 
-	 ![output 2](Bubble_sort2.2.PNG)
+	 
 	 
 	OuTPUT 3:
 	
